@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand: hsl(50 100% 69% / 1);
+  --color-brand-darker: oklch(from var(--color-brand) clamp(0, l - 0.2, 1) calc(c * 0.1) h);
+  --color-accent: hsl(8, 56%, 61%);
+  --color-light: hsl(0 0% 99% / 1);
+  --color-dark: hsl(0 0% 12% / 1);
+}
