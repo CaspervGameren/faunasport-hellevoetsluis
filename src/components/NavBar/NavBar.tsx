@@ -16,7 +16,9 @@ export const NavBar = () => {
                 </ul>
             </div>
 
-            <Button className="ml-auto w-fit">Lid Worden</Button>
+            <Button className="ml-auto w-fit">
+                <a href="/home#contact" className='m-auto'>Lid Worden</a>
+            </Button>
 
         </nav>
     )
