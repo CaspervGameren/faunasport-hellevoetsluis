@@ -9,11 +9,11 @@ export const NavBar: FC = () => {
 
             <div className="m-auto">
                 <ul className="flex gap-10">
-                    <li className="uppercase"><NavLink to="/">Home</NavLink></li>
-                    <li className="uppercase"><NavLink to="/about">Informatie</NavLink></li>
-                    <li className="uppercase"><NavLink to="/services">Services & Zorg</NavLink></li>
-                    <li className="uppercase"><NavLink to="/agenda">Agenda</NavLink></li>
-                    <li className="uppercase"><NavLink to="/fotos">Foto's</NavLink></li>
+                    <li className="uppercase pointer"><NavLink to="/">Home</NavLink></li>
+                    <li className="uppercase pointer"><NavLink to="/about">Informatie</NavLink></li>
+                    <li className="uppercase pointer"><NavLink to="/services">Services & Zorg</NavLink></li>
+                    <li className="uppercase pointer"><NavLink to="/agenda">Agenda</NavLink></li>
+                    <li className="uppercase pointer"><NavLink to="/fotos">Foto's</NavLink></li>
                 </ul>
             </div>
 
