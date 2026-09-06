@@ -1,8 +1,7 @@
-import type { FC } from "react"
 import { NavLink } from "react-router-dom"
 import { Button } from "../utils/Button"
 
-export const NavBar: FC = () => {
+export const NavBar = () => {
     return (
         <nav className="grid grid-cols-3 w-full h-20 items-center justify-center px-6 border-b">
             <img className="mr-auto" src="/faunasport-hellevoetsluis-light.png" alt="Faunasport Hellevoetsluis as a logo" />
@@ -13,7 +12,7 @@ export const NavBar: FC = () => {
                     <li className="uppercase pointer"><NavLink to="/about">Informatie</NavLink></li>
                     <li className="uppercase pointer"><NavLink to="/services">Services & Zorg</NavLink></li>
                     <li className="uppercase pointer"><NavLink to="/agenda">Agenda</NavLink></li>
-                    <li className="uppercase pointer"><NavLink to="/fotos">Foto's</NavLink></li>
+                    <li className="uppercase pointer"><NavLink to="/pictures">Foto's</NavLink></li>
                 </ul>
             </div>
 

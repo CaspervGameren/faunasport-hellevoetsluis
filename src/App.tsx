@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Layout from './components/Layout'
-import {Home, About, Services} from './pages/index.ts';
+import {Home, About, Services, Agenda, Pictures} from './pages/index.ts';
 
 
 function App() {
@@ -12,8 +12,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path='/services' element={<Services />} />
-        <Route index element={<Home />} />
-        <Route index element={<Home />} />
+        <Route path='/agenda' element={<Agenda />} />
+        <Route path='/pictures' element={<Pictures />} />
       </Route>
     </Routes> 
   )
