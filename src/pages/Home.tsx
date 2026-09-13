@@ -1,11 +1,12 @@
 export const Home = () => {
     return (
-        <div>
-            <section className="hero">
-                <h1>Welcome to Faunasport Hellevoetsluis</h1>
+        <div className="flex flex-col">
+            <section className="hero flex flex-col items-center m-auto">
+                <h1 className="py-5 text-4xl">Welkom bij Faunasport Hellevoetsluis</h1>
+                <p className="text-2xl opacity-55">Voor de echte dieren liefhebbers!</p>
             </section>
-            <section id="contact">
-                <h2>Kom in contact met ons!</h2>
+            <section id="contact" className="m-auto">
+                <h2 className="text-2xl">Kom in contact met ons!</h2>
                 <form action="POST">
 
                 </form>

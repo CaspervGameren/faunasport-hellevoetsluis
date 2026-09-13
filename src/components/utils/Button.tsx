@@ -5,7 +5,7 @@ export const Button = ({ children, className = " " }: ButtonProps) => {
     return (
         <button
             className={twMerge(
-                "uppercase rounded-sm bg-brand px-4 py-2 shadow-md pointer transition-all duration-300 hover:bg-white hover:shadow-lg hover:ring-2 hover:ring-brand",
+                "uppercase rounded-sm bg-accent px-4 py-2 shadow-md pointer transition-all duration-300 hover:shadow-lg hover:bg-brand",
                 className
             )}
         >

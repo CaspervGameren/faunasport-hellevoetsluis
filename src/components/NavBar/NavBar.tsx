@@ -8,11 +8,11 @@ export const NavBar = () => {
 
             <div className="m-auto">
                 <ul className="flex gap-10">
-                    <li className="uppercase pointer"><NavLink to="/">Home</NavLink></li>
-                    <li className="uppercase pointer"><NavLink to="/about">Informatie</NavLink></li>
-                    <li className="uppercase pointer"><NavLink to="/services">Services & Zorg</NavLink></li>
-                    <li className="uppercase pointer"><NavLink to="/agenda">Agenda</NavLink></li>
-                    <li className="uppercase pointer"><NavLink to="/pictures">Foto's</NavLink></li>
+                    <li className="uppercase pointer py-2 px-4 rounded-sm hover:bg-accent"><NavLink to="/">Home</NavLink></li>
+                    <li className="uppercase pointer py-2 px-4 rounded-sm hover:bg-accent"><NavLink to="/about">Informatie</NavLink></li>
+                    <li className="uppercase pointer py-2 px-4 rounded-sm hover:bg-accent"><NavLink to="/services">Services & Zorg</NavLink></li>
+                    <li className="uppercase pointer py-2 px-4 rounded-sm hover:bg-accent"><NavLink to="/agenda">Agenda</NavLink></li>
+                    <li className="uppercase pointer py-2 px-4 rounded-sm hover:bg-accent"><NavLink to="/pictures">Foto's</NavLink></li>
                 </ul>
             </div>
 
